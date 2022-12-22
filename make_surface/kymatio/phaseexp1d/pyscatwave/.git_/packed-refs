@@ -1,0 +1,8 @@
+# pack-refs with: peeled fully-peeled 
+5893962fdf38b5db0d588c7e2f525267a2357cc5 refs/remotes/origin/cache_default
+b4d22c64ec19efed3c78ed20fa60aad808952a5b refs/remotes/origin/cupy-only
+cf550ae0f5d49606c4e3c4e043dee28b373e166c refs/remotes/origin/fused-cdgmm
+d779472d63ddc0ed2df50533dd1e066a12918fb8 refs/remotes/origin/master
+94c0ee123658eed1aa5544cd55d57f562ee005d0 refs/remotes/origin/python3_compatible
+6eb25cf44115f505a66a8a017610e0937ef301fe refs/remotes/origin/pytorch-master-fft
+43be9672032e1da60679a14aeee245fa069ca2b2 refs/remotes/origin/return-numpy

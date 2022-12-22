@@ -1,0 +1,7 @@
+.idea
+data/
+old/
+kernel_matlab/
+__pycache__/
+FC_layers/
+nb_channels.py

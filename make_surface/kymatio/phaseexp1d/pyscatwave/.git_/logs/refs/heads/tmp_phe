@@ -1,0 +1,4 @@
+0000000000000000000000000000000000000000 d779472d63ddc0ed2df50533dd1e066a12918fb8 Roberto Leonarduzzi <rleonarduzzi@digitale.ens.fr> 1538659151 +0200	branch: Created from HEAD
+d779472d63ddc0ed2df50533dd1e066a12918fb8 4f7e935b80ba133a99c3bc46312f01126569dc9c Roberto Leonarduzzi <rleonarduzzi@digitale.ens.fr> 1538659222 +0200	commit (merge): Merge branch 'average_u2' of /users/data/rleonarduzzi/phase_exponent/pyscatwave_debug/pyscatwave into tmp_phe
+4f7e935b80ba133a99c3bc46312f01126569dc9c 156c9ee18e7bdbc8bdfb907790393aa1c26ede9a Roberto Leonarduzzi <rleonarduzzi@digitale.ens.fr> 1538659318 +0200	commit (amend): Merge branch 'average_u2' of /users/data/rleonarduzzi/phase_exponent/pyscatwave_debug/pyscatwave into tmp_phe
+156c9ee18e7bdbc8bdfb907790393aa1c26ede9a 244d1f53ec3dbebc4b5f663d6e3077cd8c47ae8e Roberto Leonarduzzi <rleonarduzzi@digitale.ens.fr> 1538674687 +0200	commit: Add precision parameter to choose type of tensors

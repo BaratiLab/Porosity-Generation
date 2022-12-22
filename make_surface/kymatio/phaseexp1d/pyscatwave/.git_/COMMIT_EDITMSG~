@@ -1,0 +1,14 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Committer: Roberto Leonarduzzi <rleonarduzzi@digitale.ens.fr>
+#
+# On branch tmp_phe
+# Changes to be committed:
+#	modified:   scattering/scattering1d/scattering1d.py
+#
+# Untracked files:
+#	build/
+#	dist/
+#

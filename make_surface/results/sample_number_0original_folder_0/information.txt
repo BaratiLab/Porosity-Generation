@@ -1,0 +1,2 @@
+meanremoved_bump_lbfgs2_gpu_N512J4L4dj1dl4dk0dn2_maxkshift1_factr10maxite500maxcor20_initnormalstdbarxns1
+model C
