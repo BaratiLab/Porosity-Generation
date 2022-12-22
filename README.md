@@ -46,3 +46,15 @@ The overall workflow for this project first analyzes a given experimental CT par
 * ```reconstruction/``` contains the workflow for training the GAN model to create new pore morphologies from the existing pore distribution, as well as the code for the stochastic recombination of the pore phase with the generated boundary. The GAN training process can be initiated by running the command ```python main_train_pores.py```, which will save model objects containing the trained generator parameters. These saved models can be used to generate new pore examples with the ```pore_generate.py``` script. 
 
 * ```reconstruction/pipeline_clean.py```, given the directory of generated boundaries and pore morphologies, stochastically combines them using the probability distributions extracted from the ```analyze_porosity_clean.py``` process. After running this script, the individual generated parts will be saved as binary ```numpy``` arrays (.npy), where `1` indicates the presence of solid material, and `0` corresponds to void space.
+
+
+### Disclaimer
+<sub> SAND2022-17070 O <sub>
+  
+  
+<sub>No sensitivities are found therein. The following software does not incorporate data encryption
+algorithms, it does not incorporate data authentication algorithms, and it cannot be used in
+massively parallel computing.<sub>
+
+<sub>Sandia National Laboratories is a multimission laboratory managed and operated by National Technology & Engineering Solutions of Sandia, LLC, a wholly owned subsidiary of Honeywell International Inc., for the U.S. Department of Energy’s National Nuclear Security Administration under contract DE-NA0003525. 
+Based on the description of the code and data, a Derivative Classifier (DC) and a Subject Matter Expert (SME) assert that the code and associated data have no sensitivities and should be deemed Unclassified Unlimited Release (UUR), although they did not physically review every line of code due to its size.<sub>
