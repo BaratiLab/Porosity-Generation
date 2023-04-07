@@ -359,9 +359,15 @@ def fft(input, direction='C2C', inverse=False):
         output = torch.irfft(input, 2, normalized=False, onesided=False)*input.size(-2)*input.size(-3)
     elif direction == 'C2C':
         if inverse:
-            output = torch.ifft(input, 2, normalized=False)*input.size(-2)*input.size(-3)
+            total_dim = len(input.shape)
+            output = torch.view_as_real(torch.fft.ifftn(torch.view_as_complex(input), dim = [total_dim-3,total_dim -2], norm = 'backward'))#torch.ifft(input, 2, normalized=False)
+
+
+#             output = torch.ifft(input, 2, normalized=False)*input.size(-2)*input.size(-3)
         else:
-            output = torch.fft(input, 2, normalized=False)
+#             output = torch.fft(input, 2, normalized=False)
+            output = torch.view_as_real(torch.fft.fftn(torch.view_as_complex(input), dim = [1,2])) 
+
 
     return output
 
